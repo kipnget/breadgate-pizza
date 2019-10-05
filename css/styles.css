@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lemon|Mogra&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../images/hkgwh-kitchen-8848-hor-clsc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body::-webkit-scrollbar {
+    background-color: #DADADA;
+    width:12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #F18C41;
+    border-radius: 25px;
+}
+
+.cover{
+    height:auto;
+    background-color: rgba(0,0,0,.7)
+}
+
+#header{
+    height:20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(184, 93, 24);
+    font-family: 'Lemon', cursive;
+     
+}
+
+#carousel{
+    height:50vh;
+}
+.img-carousel{
+    background-size: cover;
+    height:60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img-3{
+    background-image: url('../images/pizza/pizza1.jpg');
+}
+#img-2{
+    background-image: url('../images/pizza/pizza2.jpg');
+}
+#img-1{
+    background-image: url('../images/pizza/pizza3.jpg');
+}
+#img-4{
+    background-image: url('../images/pizza/pizza4.jpg');
+}
+.carousel-caption h5{
+    color: #F18C41;
+    font-size:40px
+}
+
+.cafe-desc{
+    height:30vh;
+    font-family: 'Mogra', cursive;
+    color:#F17A29;
+    font-size: 30px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
