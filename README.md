@@ -2,7 +2,7 @@
 # Pizza-Deliciosa
 ## Author
 
-[Kipngetich mutai]
+[Kipnget]
 
 
 ## Description
@@ -42,4 +42,8 @@ If you have any question or contributions that would better this app, please ema
 
 ## License
 * *MIT License:*
+<<<<<<< HEAD
 * Copyright (c) 2019 **kipngetich mutai**
+=======
+* Copyright (c) 2019 **kipngetich mutai**
+>>>>>>> gh-pages
